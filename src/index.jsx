@@ -4,7 +4,7 @@ import App from './App';
 
 /* REDUX */
 import { Provider } from 'react-redux';
-import store from './store';
+// import store from './store';
 
 /* ANTD-MOBILE */
 import { ConfigProvider } from 'antd-mobile';
@@ -31,8 +31,8 @@ import './index.less';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <ConfigProvider locale={zhCN}>
-    <Provider store={store}>
       <App />
-    </Provider>
+    {/* <Provider>
+    </Provider> */}
   </ConfigProvider>
 );

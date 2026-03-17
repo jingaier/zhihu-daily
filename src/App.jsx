@@ -1,13 +1,9 @@
 import React from "react";
-import { HashRouter } from 'react-router-dom';
+import Home from './views/Home';
 import RouterView from "./router";
 import { KeepAliveProvider } from 'keepalive-react-component';
 
 const App = function App() {
-    return <HashRouter>
-        <KeepAliveProvider>
-            <RouterView />
-        </KeepAliveProvider>
-    </HashRouter>;
-};
+    return <Home></Home>
+}
 export default App;
