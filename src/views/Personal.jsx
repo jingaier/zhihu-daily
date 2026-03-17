@@ -38,7 +38,7 @@ const PersonalBox = styled.div`
 const Personal = function Personal(props) {
     
     return <PersonalBox>
-        
+        个人中心-知乎日报
     </PersonalBox>;
 };
 export default Personal;

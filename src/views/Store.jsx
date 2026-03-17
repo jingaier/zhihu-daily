@@ -14,7 +14,7 @@ const Store = function Store(props) {
     
 
     return <StoreBox>
-        
+        我的收藏-知乎日报
     </StoreBox>;
 };
 export default Store;

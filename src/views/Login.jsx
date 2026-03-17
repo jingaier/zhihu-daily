@@ -24,7 +24,7 @@ const Login = function Login(props) {
     
 
     return <div className='login-box'>
-        
+        登录/注册-知乎日报
     </div>;
 };
 export default Login;

@@ -1,11 +1,6 @@
 import React, { useState } from "react";
-import NavBarAgain from '../components/NavBarAgain';
-import ButtonAgain from '../components/ButtonAgain';
 import styled from "styled-components";
-import { ImageUploader, Input, Toast } from 'antd-mobile';
-import { connect } from 'react-redux';
-import action from '../store/action';
-import api from '../api';
+
 
 /* 样式 */
 const UpdateBox = styled.div`
@@ -43,7 +38,7 @@ const Update = function Update(props) {
     
 
     return <UpdateBox>
-        <NavBarAgain title="修改信息" />
+        修改个人信息-知乎日报
   
     </UpdateBox>;
 };
